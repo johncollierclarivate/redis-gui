@@ -6,6 +6,12 @@ A graphical UI for managing Redis databases.
 
 <img src="packages/renderer/assets/redis.svg" width="192" height="192"/>
 
+# Run
+
+```shell
+npx electron .
+```
+
 ---
 
 # ℹ️ Looking for maintainers ℹ️
