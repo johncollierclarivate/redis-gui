@@ -4,6 +4,8 @@ import menu from '/@/menu'
 import './security-restrictions'
 import {restoreOrCreateWindow} from '/@/mainWindow'
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+app.commandLine.appendSwitch('ignore-certificate-errors');
 
 /**
  * Prevent multiple instances
